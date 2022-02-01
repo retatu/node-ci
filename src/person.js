@@ -13,5 +13,17 @@ module.exports = class Person {
   getAge() {
     return this.age;
   }
+  getAgePlus2() {
+    return this.age+2;
+  }
+  getAgePlus3() {
+    return this.age+3;
+  }
+  getAgePlus4() {
+    return this.age+4;
+  }
+  getAgePlus5() {
+    return this.age+5;
+  }
 
 }
