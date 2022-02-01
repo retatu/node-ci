@@ -3,6 +3,7 @@ module.exports = class Person {
     this.firstName = firstName;
     this.lastName = lastName;
     this.age = age;
+    this.completeName = this.firstName+" "+this.lastName;
   }
 
   getFullName(){
