@@ -22,4 +22,10 @@ describe('App', () => {
     const person = new Person(validName, validLastName, null);
     expect(person.getFullName()).toBe(validName+" "+validLastName);
   })
+  test('Providing age in constructor should have name', () => {
+    const validName = "Valid Name";
+    const validLastName = "Valid Name";
+    const person = new Person(validName, validLastName, 2);
+    expect(person.getAgePlus2()).toBe(2+2);
+  })
 })
