@@ -28,4 +28,16 @@ describe('App', () => {
     const person = new Person(validName, validLastName, 2);
     expect(person.getAgePlus2()).toBe(2+2);
   })
+  test('Providing age in constructor should have name', () => {
+    const validName = "Valid Name";
+    const validLastName = "Valid Name";
+    const person = new Person(validName, validLastName, 2);
+    expect(person.getAgePlus3()).toBe(3+2);
+  })
+  test('Providing age in constructor should have name', () => {
+    const validName = "Valid Name";
+    const validLastName = "Valid Name";
+    const person = new Person(validName, validLastName, 2);
+    expect(person.getAgePlus4()).toBe(4+2);
+  })
 })

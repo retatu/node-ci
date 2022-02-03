@@ -25,11 +25,5 @@ module.exports = class Person {
   getAgePlus5() {
     return this.age+5;
   }
-  getAgePlus6() {
-    return this.age+5;
-  }
-  getAgePlus7() {
-    return this.age+5;
-  }
 
 }
